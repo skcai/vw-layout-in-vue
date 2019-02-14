@@ -22,9 +22,17 @@
     "@vue/test-utils": "^1.0.0-beta.20",
     "babel-eslint": "^10.0.1",
     "chai": "^4.1.2",
+    "cssnano": "^4.1.9",
+    "cssnano-preset-advanced": "^4.0.7",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.0",
+    "postcss-aspect-ratio-mini": "^1.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.5.0",
+    "postcss-px-to-viewport": "^1.1.0",
+    "postcss-url": "^8.0.0",
+    "postcss-write-svg": "^3.0.1",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.21"
   }
