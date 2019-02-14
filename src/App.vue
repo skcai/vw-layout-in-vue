@@ -26,4 +26,31 @@
     }
   }
 }
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  content: normal !important;
+}
+[aspectratio] {
+  position: relative;
+}
+[aspectratio]::before {
+  content: "";
+  display: block;
+  width: 1px;
+  margin-left: -1px;
+  height: 0;
+}
+
+[aspectratio-content] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
 </style>
